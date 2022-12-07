@@ -1,8 +1,24 @@
 header {
   background-color: #444;
+  height: 100px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  margin: auto;
 }
 
 body {
+  /* width: 960px;
+  margin: auto; */
+}
+
+main {
   width: 960px;
   margin: auto;
 }
@@ -23,21 +39,29 @@ button:hover {
 footer {
   background-color: #444;
   height: 100px;
+  margin-top: 30px;
 }
 
 main ul {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin: 30px;
-  border: 30px;
+  margin: 30px 0;
 }
 
 main section {
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
 main {
   display: flex;
   flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
